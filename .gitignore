@@ -11,3 +11,6 @@ wheels/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Data
+src/data/
