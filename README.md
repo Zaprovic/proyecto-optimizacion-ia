@@ -47,6 +47,9 @@ src/
 └── main.ipynb                 # análisis completo
 ```
 
+Los datos no se versionan (`src/data/` está en `.gitignore`): antes de ejecutar el
+notebook hay que copiar `tabla_total.parquet` en `src/data/`.
+
 ## Cómo ejecutarlo
 
 Requiere [uv](https://docs.astral.sh/uv/) y Python 3.14.
